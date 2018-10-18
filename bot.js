@@ -14,6 +14,6 @@ client.on('guildMemberAdd', member => {
 });
 
 
-client.on('guildMemberAdd', member => {
+client.on('guildMemberRemove', member => {
     member.sendMessage(`GoodBye \n بوتنا العربي الجديد بخواص خورافيه \n ادخل وجرب بنفسك \n https://discord.gg/ \n الدعوه خاصه لك [${member}]`);
 });
