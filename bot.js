@@ -10,10 +10,10 @@ client.user.setStatus('dnd')
 
 
 client.on('guildMemberAdd', member => {
-    member.sendMessage(`Welcome \n بوتنا العربي الجديد بخواص خورافيه \n ادخل وجرب بنفسك \n https://discord.gg/ \n الدعوه خاصه لك [${member}]`);
+    member.sendMessage(`Welcome \n بوتنا العربي الجديد بخواص خورافيه \n ادخل وجرب بنفسك \n https://discord.gg/M2F5Jya \n الدعوه خاصه لك [${member}]`);
 });
 
 
 client.on('guildMemberRemove', member => {
-    member.sendMessage(`GoodBye \n بوتنا العربي الجديد بخواص خورافيه \n ادخل وجرب بنفسك \n https://discord.gg/ \n الدعوه خاصه لك [${member}]`);
+    member.sendMessage(`GoodBye \n بوتنا العربي الجديد بخواص خورافيه \n ادخل وجرب بنفسك \n https://discord.gg/M2F5Jya \n الدعوه خاصه لك [${member}]`);
 });
